@@ -20,4 +20,8 @@ export class PartiesList {
     removeParty(party) {
         Parties.remove(party._id);
     }
+
+    addParty(party) {
+        Parties.insert(party);
+    }
 }
